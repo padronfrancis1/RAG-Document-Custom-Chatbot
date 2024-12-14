@@ -9,3 +9,5 @@ Vector Search: Efficient retrieval using FAISS for similarity search.
 Custom Prompts: Tailored prompts for accurate and concise answers.
 Explainable AI: Tracks and cites document sources for transparency.
 Extensible Design: Easily adaptable for different use cases and document types.
+
+# Please note to provide your OpenAI key
