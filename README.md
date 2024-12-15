@@ -10,6 +10,8 @@ The model will provide responses based on the information contained in the docum
 # Abstract section:
 ![Abstract](./abstract.png)
 
+![Abstract](./changecontext.png)
+
 # Key features include:
 
 Document Parsing: Supports PDF and text file ingestion.
