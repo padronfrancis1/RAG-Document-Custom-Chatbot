@@ -4,12 +4,12 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that enab
 
 # Example
 The model will provide responses based on the information contained in the document "document_sample.pdf" for this case.
-![Chatbot Demo](./chat_sample.png)
+![Chatbot Demo](./qanda.png)
 
-Abstract:
+# Abstract section:
 ![Abstract](./abstract.png)
 
-Key features include:
+# Key features include:
 
 Document Parsing: Supports PDF and text file ingestion.
 Vector Search: Efficient retrieval using FAISS for similarity search.
