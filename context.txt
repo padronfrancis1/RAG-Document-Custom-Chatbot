@@ -1,21 +1,19 @@
 Abstract
- Biomedical research is growing at such an exponential pace that scientists, researchers, and prac
+
+Biomedical research is growing at such an exponential pace that scientists, researchers, and prac
 titioners are no more able to cope with the amount of published literature in the domain. The
- knowledge presented in the literature needs to be systematized in such a way that claims and
- hypotheses can be easily found, accessed, and validated. Knowledge graphs can provide such a
- framework for semantic knowledge representation from literature. However, in order to build a
- knowledge graph, it is necessary to extract knowledge as relationships between biomedical enti
+knowledge presented in the literature needs to be systematized in such a way that claims and
+hypotheses can be easily found, accessed, and validated. Knowledge graphs can provide such a
+framework for semantic knowledge representation from literature. However, in order to build a
+knowledge graph, it is necessary to extract knowledge as relationships between biomedical enti
 ties and normalize both entities and relationship types. In this paper, we present and compare a
- few rule-based and machine learning-based (Naive Bayes, Random Forests as examples of tradi
+few rule-based and machine learning-based (Naive Bayes, Random Forests as examples of tradi
 tional machine learning methods and DistilBERT, PubMedBERT, T5, and SciFive-based models
- as examples of modern deep learning transformers) methods for scalable relationship extraction
- from biomedical literature, and for the integration into the knowledge graphs. We examine how
- resilient are these various methods to unbalanced and fairly small datasets. Our experiments show
- that transformer-based models handle well both small (due to pre-training on a large dataset) and
- unbalanced datasets. The best performing model was the PubMedBERT-based model fine-tuned
- on balanced data, with a reported F1-score of 0.92. The distilBERT-based model followed with an
- F1-score of 0.89, performing faster and with lower resource requirements. BERT-based models
- performed better than T5-based generative models.
- Keywords:
- knowledge graphs, information extraction, machine learning, natural language processing, text
- mining, text-to-text model, linked data, transformers, PubMedBERT, T5, SciFive
+as examples of modern deep learning transformers) methods for scalable relationship extraction
+from biomedical literature, and for the integration into the knowledge graphs. We examine how
+resilient are these various methods to unbalanced and fairly small datasets. Our experiments show
+that transformer-based models handle well both small (due to pre-training on a large dataset) and
+unbalanced datasets. The best performing model was the PubMedBERT-based model fine-tuned
+on balanced data, with a reported F1-score of 0.92. The distilBERT-based model followed with an
+F1-score of 0.89, performing faster and with lower resource requirements. BERT-based models
+performed better than T5-based generative models.

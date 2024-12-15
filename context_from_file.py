@@ -28,7 +28,7 @@ chain = LLMChain(llm=llm, prompt=prompt_template)
 
 input_data = {
     "context": context,
-    "query": "What are the key topics discussed in the file?"
+    "query": "Please give me a summary of the abstract section os this document."
 }
 
 response = chain.run(input_data)
