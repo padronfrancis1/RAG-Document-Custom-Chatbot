@@ -4,7 +4,7 @@ This project implements a Retrieval-Augmented Generation (RAG) chatbot that enab
 
 # Example
 The model will provide responses based on the information contained in the document "document_sample.pdf" for this case.
-![Chatbot Demo](./chat.png)
+![Chatbot Demo](./chat_sample.png)
 
 Abstract:
 ![Abstract](./abstract.png)
